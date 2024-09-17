@@ -1,5 +1,11 @@
 E42F8F - Rosa Escuro  -> Gradiente (F887C3 - Rosa Claro)
 F1DEE7 - Rosa Claro
-5CC7fA - Azul Escuro
-F6FEFE - Azul Claro
+AB185E - Rosa Mais Escuro
+
+2F82E4 - Azul Escuro -> Gradiente (87D6F8 - Azul Claro)
+1865AB - Azul Mais Escuro
+
+E47B2F - Laranja Escuro -> Gradiente (F8D287 - Laranja Claro)
+AB5F18 - Laranja Mais Escuro
+
 fce2d8
