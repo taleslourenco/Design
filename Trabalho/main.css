@@ -1,0 +1,243 @@
+/* Reseta margens e paddings */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face{
+    font-family: 'Barbie'; 
+    src: url('c:\Users\user\Desktop\Trabalho\Barbie.otf'); 
+  }
+
+/* Header */
+
+h1 a{
+    font-family: 'Barbie';
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-image: linear-gradient(to right, #E42F8F, #F887C3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.1em;
+    color: white;
+}
+
+#kenhead{
+    background-image: linear-gradient(to right, #2F82E4, #87D6F8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.1em;
+    color: white;
+}
+
+#allanhead{
+    background-image: linear-gradient(to right, #E47B2F, #F8D287);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.1em;
+    color: white;
+}
+
+/* Corpo */
+
+
+main{
+    height: 72em;
+    text-align: center;
+}
+
+main h2{
+    margin-top: 2em;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10em;
+    background-color: #F1DEE7;
+}
+
+.secao{
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.secao p{
+    margin: 0 auto;
+    height: 12em;
+    margin-top: 2em;
+    width: 30em;
+    text-align: center;
+}
+
+.cards{
+    width: 50em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.cards div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    width: 14em;
+    height: 16em;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+}
+
+.cards div img{
+    margin-bottom: 2em;
+}
+
+.cards div p{
+    width: 6em;
+    margin-left: 4em;
+}
+
+.cards2 {
+    width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.cards2 div{
+    border-radius: 3px;
+    width: 14em;
+    height: 16em;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+.bg{
+    background-image: url(Banner.png);
+    background-size: 100% auto;
+    background-position-y: 40%;
+    height: 250px;
+}
+
+#historia{
+    height: 80em;
+}
+.container{
+    width: 100%;
+}
+
+.container div{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.container div p{
+    width: 25em;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Rodapé */
+
+footer{
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #E42F8F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#kenfoot .footer {
+    background-color: #2F82E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#allanfoot .footer {
+    background-color: #E47B2F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.desenvolvedores{
+    background-color: #AB185E;
+    text-align: center;
+    padding: 14px;
+}
+
+#kenfoot .desenvolvedores{
+    background-color: #1865AB;
+    text-align: center;
+    padding: 14px;
+}
+
+#allanfoot .desenvolvedores{
+    background-color: #AB5F18;
+    text-align: center;
+    padding: 14px;
+}
