@@ -1,5 +1,6 @@
 /* Reseta margens e paddings */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,23 @@
     src: url('c:\Users\user\Desktop\Trabalho\Barbie.otf'); 
   }
 
+
+@media screen and (max-width: 480px) {
+    #allan{
+        left:2vw;
+        width: 96vw;
+    }
+
+    #allanhead{
+        left:2vw;
+        width: 96vw;
+    }
+
+    #allanfoot{
+        left:2vw;
+        width: 96vw;
+    }
+}
 /* Header */
 
 h1 a{
@@ -74,6 +92,11 @@ header{
 
 main{
     height: 72em;
+    text-align: center;
+}
+
+#allan{
+    height: 50em;
     text-align: center;
 }
 
@@ -152,6 +175,25 @@ main h2{
     margin-bottom: 10em;
 }
 
+.cards3 {
+    width: 14em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.cards3 div{
+    border-radius: 3px;
+    width: 14em;
+    height: 16em;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+}
+
 .bg{
     background-image: url(Banner.png);
     background-size: 100% auto;
@@ -179,6 +221,64 @@ main h2{
     align-content: center;
     margin: 0 auto;
     text-align: left;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;     
+    height: 70em;           /* Define a altura do contêiner como a altura da janela */
+}
+.container-form h2{
+    margin-bottom: 2em;
+}
+
+
+form {
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 94%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 0.8em 1.5em;
+    background-color: #E42F8F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c7247c;
 }
 
 /* Rodapé */
