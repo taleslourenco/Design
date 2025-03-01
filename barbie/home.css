@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    padding-bottom: 1em;
+}
+
+#texto{
+    padding: 10em;
+}

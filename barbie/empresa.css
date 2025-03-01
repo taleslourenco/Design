@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-left: 8em;
+    margin-bottom: 3em;
+    margin-right: 8em;
+}
+
+h2{
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+#header p{
+    font-style: italic ;
+    color: gray;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+#infoum{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+#infodois{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+#infoum p{
+    font-weight: lighter;
+    font-size: 1.8em;
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;
+}
+
+#infodois p{
+    font-weight: lighter;
+    font-size: 1.8em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    padding-right: 8em;
+}
+
+#infoum img{
+    border-radius: 50px;
+}
+
+#infodois img{
+    border-radius: 50px;
+}

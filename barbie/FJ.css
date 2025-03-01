@@ -1,0 +1,31 @@
+main{
+    flex-direction: column;
+    
+}
+.container {
+    margin-right: 5%; 
+    margin-left: 5%; 
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 2em ; */
+    /* padding-right: 2em; */
+    margin-bottom: 10em;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.item {
+    text-align: center;
+    margin: 0.5em;
+    
+}
+
+.item img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5em;
+}
