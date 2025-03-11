@@ -1,0 +1,100 @@
+#imagemb1{
+    padding-bottom:2em ;
+}
+
+.sobre-barbie{
+    background-color: aliceblue;
+    padding:2em;
+    padding-bottom:1.5em;
+    border-radius:2em;
+    box-shadow: 2px 2px 15px rgb(66, 66, 66);
+    margin-right: 3em;
+    max-width: 80em;
+    margin-left: 5em;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    background-color: rgb(248, 172, 198);
+    padding-bottom: 4em;
+    padding-top: 4em;   
+}
+
+texto{
+    flex: 1;
+    padding: 10em;
+}
+
+#texto p{
+    font-style: italic;
+    color: rgb(85, 85, 85);
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 1em 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .dropdown-menu {
+        position: static; /* Faz o dropdown aparecer inline */
+    }
+
+    /* Main */
+    main {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    #texto {
+        padding: 2em;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .footer img {
+        margin-bottom: 1em;
+    }
+
+    .footer nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas muito pequenas */
+    #texto {
+        padding: 1em;
+    }
+
+    .carousel-item img {
+        height: 200px; /* Altura fixa para telas pequenas */
+    }
+}

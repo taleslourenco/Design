@@ -17,10 +17,11 @@ ul{
 }
 
 li{
-    font-size:1.3em;
+    font-size:1.1em;
 }
 
 nav{
+    margin-top: 1em;
     display: flex;
     align-items: center;
 }
@@ -41,6 +42,17 @@ header{
     color: white;
 }
 
+.dropdown-menu {
+    display: none; /* Esconde o dropdown por padrão */
+    position: absolute;
+    background-color: #F86799;
+    padding: 0.5em;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Mostra o dropdown ao passar o mouse */
+}
+
 footer{
     color: white;
     font-size: 15px;
@@ -58,8 +70,21 @@ footer{
     padding-bottom: 1em;
 }
 
+
+.footer nav{
+    margin-top: 1em;
+}
+
+.footer p{
+    margin-top: 1em;
+}
+
 .desenvolvedores{
     background-color: #F34381;
     text-align: center;
     padding: 5px 14px 5px 14px;
+}
+
+.desenvolvedores p{
+    margin-top: 1em;
 }

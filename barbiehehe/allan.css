@@ -1,0 +1,182 @@
+h1 a{
+    font-family: 'Barbie';
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+li{
+    font-size:1.1em;
+}
+
+nav{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgb(248, 161, 103);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none; /* Esconde o dropdown por padrão */
+    position: absolute;
+    background-color: rgb(248, 161, 103);
+    padding: 0.5em;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Mostra o dropdown ao passar o mouse */
+}
+
+footer{
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: rgb(247, 184, 142);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.footer nav{
+    margin-top: 1em;
+}
+
+.footer p{
+    margin-top: 1em;
+}
+
+.desenvolvedores{
+    background-color: rgb(243, 137, 67);
+    text-align: center;
+    padding: 5px 14px 5px 14px;
+}
+
+.desenvolvedores p{
+    margin-top: 1em;
+}
+
+#imagemb1{
+    padding-bottom:2em ;
+}
+
+.sobre-barbie{
+    background-color: aliceblue;
+    padding:2em;
+    padding-bottom:1.5em;
+    border-radius:2em;
+    box-shadow: 2px 2px 15px rgb(66, 66, 66);
+    margin-right: 3em;
+    max-width: 80em;
+    margin-left: 5em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    background-color: rgb(248, 215, 172);
+    padding-bottom: 4em;
+    padding-top: 4em;   
+    
+    
+}
+
+#texto p{
+    font-style: italic;
+    color: rgb(85, 85, 85);
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 1em 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .dropdown-menu {
+        position: static; /* Faz o dropdown aparecer inline */
+    }
+
+    /* Main */
+    main {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    #texto {
+        padding: 2em;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .footer img {
+        margin-bottom: 1em;
+    }
+
+    .footer nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas muito pequenas */
+    #texto {
+        padding: 1em;
+    }
+
+    .carousel-item img {
+        height: 200px; /* Altura fixa para telas pequenas */
+    }
+}

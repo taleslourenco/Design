@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    padding-bottom: 1em;
+}
+
+#texto{
+    padding: 10em;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column; /* Empilha logo e navegação */
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column; /* Empilha os itens do menu */
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .imagens-barbie {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .imagens-barbie img {
+        width: 48%;
+    }
+
+    .sobre-barbie {
+        padding: 20px;
+    }
+
+    .sobre-barbie h1 {
+        font-size: 1.8em;
+    }
+
+    .sobre-barbie p {
+        font-size: 0.9em;
+    }
+}
